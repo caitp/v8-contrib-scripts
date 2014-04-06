@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+origin_url=$(git config --get remote.origin.url)
+
+if [ "$origin_url" != "git://github.com/v8/v8.git" ]; then
+  echo "Not in a V8 repository!";
+  exit 1;
+fi
+
+git pull --rebase origin master
