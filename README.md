@@ -3,7 +3,7 @@ v8-contrib-scripts
 
 Some helper scripts for working with V8 using the Github mirror, as a non-commiter
 
-1. [rebase-v8](#rebase-v8) -- Update master branch with `git cl rebase`, to help fix bitrot
+1. [rebase-v8](#rebase-v8) -- Update master branch and rebase against it with with `git cl rebase`, to help fix bitrot
 2. [newpatch-v8](#newpatch-v8) -- Checkout a new feature branch against a freshly updated master branch
 
 ##Scripts
