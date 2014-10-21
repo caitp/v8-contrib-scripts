@@ -1,6 +1,8 @@
 v8-contrib-scripts
 ==================
 
+**NOTE** The V8 git workflow is much simpler now, so this stuff is pretty much useless / not worth the trouble at this point.
+
 Some helper scripts for working with V8 using the Github mirror, as a non-commiter
 
 1. [rebase-v8](#rebase-v8) -- Update master branch and rebase against it with with `git cl rebase`, to help fix bitrot
